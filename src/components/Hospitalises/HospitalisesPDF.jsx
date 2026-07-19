@@ -54,7 +54,7 @@ const exportHospitalisesPDF = (patients) => {
   });
   y += 10;
 
-  // Lignes
+  
   pdf.setFont("helvetica", "normal");
   pdf.setFontSize(9);
   patients.forEach((p, idx) => {
