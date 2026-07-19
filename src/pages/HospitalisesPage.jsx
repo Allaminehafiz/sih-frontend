@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import admissionService from "../services/admissionService";
 import Icon from "../components/common/Icon";
 import ConfirmDialog from "../components/common/ConfirmDialog";
-import exportHospitalisesPDF from "../components/hospitalises/HospitalisesPDF";
+import exportHospitalisesPDF from "../components/Hospitalises/HospitalisesPDF";
 
 const canSortir = (role) => ["ADMIN", "AGENT_ADMISSION"].includes(role);
 
