@@ -87,7 +87,7 @@ const exportHospitalisesPDF = (patients) => {
     y += 8;
   });
 
-  // Pied de page
+  
   pdf.setFontSize(8);
   pdf.setTextColor(150, 150, 150);
   const today = new Date().toLocaleDateString("fr-FR");
